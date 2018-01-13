@@ -12,9 +12,6 @@ add-apt-repository -y ppa:jonathonf/gcc-7.1;
 # reupdate source
 apt-get -y  update;
 
-# installing gcc
-apt-get -y  install gcc-7 g++-7;
-
 # atcivate hugepages
 echo 10000 > /proc/sys/vm/nr_hugepages
 
@@ -26,6 +23,9 @@ swapon /swapfile
 echo /swapfile > none    swap    sw    0   0 /etc/fstab
 echo vm.swappiness=10 > /etc/sysctl.conf
 sysctl -p
+
+# installing gcc
+apt-get -y  install gcc-7 g++-7;
 
 # cloning xmrig package
 git clone https://github.com/xmrig/xmrig.git
