@@ -28,7 +28,7 @@ sysctl -p
 apt-get -y  install gcc-7 g++-7;
 
 # cloning xmrig package
-git https://github.com/xmrig/xmrig.git
+git clone https://github.com/xmrig/xmrig.git
 
 #entering xmrig directory
 cd xmrig
