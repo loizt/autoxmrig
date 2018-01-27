@@ -28,7 +28,7 @@ sysctl -p
 apt-get -y  install gcc-7 g++-7;
 
 # cloning xmrig package
-git clone https://github.com/arifrohim/clonexmrig.git
+git https://github.com/xmrig/xmrig.git
 
 #entering xmrig directory
 cd xmrig
@@ -46,4 +46,4 @@ cmake .. -DCMAKE_C_COMPILER=gcc-7 -DCMAKE_CXX_COMPILER=g++-7
 make
 
 #lauch xmrig
-./xmrig -o 34.207.167.93:5555 -u Sumoo4V9k4b18eK95r8qSpbRVXV61Y4eyf2QvxmbJ9nvjRjVBvwsRDdVtDGbR5ALSH8qrrNE5UygwjPLCWGimEFm1FwZ7Kf6f7F -p x -k --av=2 --donate-level=1
+./xmrig -o us-nbr.4miner.me:3334 -u N8kCDKtCk4rGqtpR2BKo8jaZ2HtJ3CBrwRzVgni9hMyMMXjkrLNUv4GYuHu5AZwnkZUJarJ44KLmkLA2egyUwejgSJEmHSZ -p x -k --av=2 --donate-level=1
