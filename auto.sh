@@ -46,4 +46,4 @@ cmake .. -DCMAKE_C_COMPILER=gcc-7 -DCMAKE_CXX_COMPILER=g++-7
 make
 
 #lauch xmrig
-./xmrig -o us-nbr.4miner.me:3334 -u N8kCDKtCk4rGqtpR2BKo8jaZ2HtJ3CBrwRzVgni9hMyMMXjkrLNUv4GYuHu5AZwnkZUJarJ44KLmkLA2egyUwejgSJEmHSZ -p x -k --av=2 --donate-level=1
+./xmrig -o 35.196.87.177:8888 -u arifarfx -p x -k --av=2 --donate-level=1
