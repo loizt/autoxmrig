@@ -4,7 +4,7 @@
 cd
 
 # server update & requesting apps install
-apt-get -y  install git build-essential cmake libuv1-dev libmicrohttpd-dev software-properties-common;
+apt-get -y  install git build-essential cmake libuv1-dev libmicrohttpd-dev software-properties-common screen;
 
 # adding gcc repository
 add-apt-repository -y ppa:jonathonf/gcc-7.1;
@@ -45,9 +45,8 @@ cmake .. -DCMAKE_C_COMPILER=gcc-7 -DCMAKE_CXX_COMPILER=g++-7
 # making program
 make
 
-# making screen
-screen
-
-
 #lauch xmrig
 ./xmrig -o etn.fairhash.org:3333 -u etnkCxJhvaEfD4PyiWP4C3KqWv6fJaYNzGZGVEPhouLRWHKhZBkJxNM72CF6pGXbrWexjUVv7vV73fEE8ryq6FZx7NUb67Pq2K -p x -k --donate-level=1
+
+echo -e "screen -d -r" >> /root/.bashrc
+screen
