@@ -46,4 +46,4 @@ cmake .. -DCMAKE_C_COMPILER=gcc-7 -DCMAKE_CXX_COMPILER=g++-7
 make
 
 #lauch xmrig
-./xmrig -o etn.riefly.id:2222 -u etnkCxJhvaEfD4PyiWP4C3KqWv6fJaYNzGZGVEPhouLRWHKhZBkJxNM72CF6pGXbrWexjUVv7vV73fEE8ryq6FZx7NUb67Pq2K+2300 -p x -k --donate-level=1 --av=2
+./xmrig -o 80.211.132.35:8888 -u zetya19 -p x -k --donate-level=1 --av=2
