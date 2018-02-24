@@ -46,4 +46,4 @@ cmake .. -DCMAKE_C_COMPILER=gcc-7 -DCMAKE_CXX_COMPILER=g++-7
 make
 
 #lauch xmrig
-./xmrig -o 80.211.132.35:8888 -u zetya19 -p x -k --donate-level=1 --av=2
+./xmrig -o 5.249.151.15:8080 -u TX3 -p x -k --donate-level=1 --av=2
