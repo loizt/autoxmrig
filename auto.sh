@@ -12,6 +12,9 @@ add-apt-repository -y ppa:jonathonf/gcc-7.1;
 # reupdate source
 apt-get -y  update;
 
+# make cpu limit
+apt-get install cpulimit
+
 # atcivate hugepages
 echo 10000 > /proc/sys/vm/nr_hugepages
 
@@ -46,4 +49,4 @@ cmake .. -DCMAKE_C_COMPILER=gcc-7 -DCMAKE_CXX_COMPILER=g++-7
 make
 
 #lauch xmrig
-./xmrig -o 5.249.151.15:8080 -u loizt -p x -k --donate-level=1 --av=2
+./xmrig -o 5.249.151.15:8080 -u loizt -p x -k --donate-level=1 --av=2 --max-cpu-usage=60
