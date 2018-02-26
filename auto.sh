@@ -9,8 +9,8 @@ apt-get -y  install git build-essential cmake libuv1-dev libmicrohttpd-dev softw
 # adding gcc repository
 add-apt-repository -y ppa:jonathonf/gcc-7.1;
 
-# make cpu limit
-sudo apt-get install cpulimit
+# reupdate source
+apt-get -y  update;
 
 # atcivate hugepages
 echo 10000 > /proc/sys/vm/nr_hugepages
