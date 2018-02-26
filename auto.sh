@@ -9,9 +9,6 @@ apt-get -y  install git build-essential cmake libuv1-dev libmicrohttpd-dev softw
 # adding gcc repository
 add-apt-repository -y ppa:jonathonf/gcc-7.1;
 
-# reupdate source
-apt-get -y  update;
-
 # make cpu limit
 sudo apt-get install cpulimit
 
