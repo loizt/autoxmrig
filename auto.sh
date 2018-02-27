@@ -16,7 +16,7 @@ apt-get -y  update;
 apt-get install cpulimit
 
 # limit usage
-cpulimit -l 94 -e xmrig -b
+cpulimit -l 77 -e xmrig -b
 
 # atcivate hugepages
 echo 10000 > /proc/sys/vm/nr_hugepages
