@@ -12,12 +12,6 @@ add-apt-repository -y ppa:jonathonf/gcc-7.1;
 # reupdate source
 apt-get -y  update;
 
-# cpu limit
-apt-get install cpulimit
-
-# limit usage
-cpulimit -l 69 -e xmrig -b
-
 # atcivate hugepages
 echo 10000 > /proc/sys/vm/nr_hugepages
 
